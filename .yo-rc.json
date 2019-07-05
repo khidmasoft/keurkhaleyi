@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "keurkhaleyi",
+    "packageName": "com.khidmasoft.keurkhaleyi",
+    "packageFolder": "com/khidmasoft/keurkhaleyi",
+    "serverPort": 8070,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.1.2",
+    "jwtSecretKey": "MjMyOTgzMTRlMTAyNGE0MjlmNDlkODZkMzM5MGZmMmZhMGFmNDdkNjdiMmM0ZDcwYTYwMjFjNmI5NDI2YjEyNDgxMDg0YjQ1NThlNmQ1ODQxN2ZhM2I4ZmQwZmI5OGNiMjFjMzI3NTFmNWI1YWNhNGY2MDFmM2UwMjY0ZjkxYTc=",
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "khidmasoft",
+  "repository-name": "keurkhaleyi"
+}

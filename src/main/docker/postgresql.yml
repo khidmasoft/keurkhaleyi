@@ -1,0 +1,11 @@
+version: '2'
+services:
+  keurkhaleyi-postgresql:
+    image: postgres:11.3
+    # volumes:
+    #     - ~/volumes/jhipster/keurkhaleyi/postgresql/:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_USER=keurkhaleyi
+      - POSTGRES_PASSWORD=
+    ports:
+      - 5432:5432
